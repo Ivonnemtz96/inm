@@ -13,7 +13,7 @@ include('includes/head.php');
     <div id="wrapper">
         <?php
         include("includes/header.php");
-        include("modules/agregar-caracteristica.php");
+        include("admin/agregar-caracteristica.php");
         include("includes/footer.php");
         include("includes/scripts.php");
         ?>

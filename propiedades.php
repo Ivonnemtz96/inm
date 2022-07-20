@@ -13,7 +13,7 @@ include('includes/head.php');
     <div id="wrapper">
         <?php
         include("includes/header.php");
-        include("modules/propiedades.php");
+        include("admin/propiedades.php");
         include("includes/footer.php");
         include("includes/scripts.php");
         ?>
