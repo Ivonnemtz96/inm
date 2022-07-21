@@ -1,5 +1,6 @@
 <?php
 require_once($_SERVER["DOCUMENT_ROOT"]."/database_conf/sesion.php");
+require_once($_SERVER["DOCUMENT_ROOT"] . "/config.php");
 
 
 ini_set('display_errors', 1);
@@ -106,6 +107,3 @@ if(isset($_REQUEST['submit']) and $_REQUEST['submit']!=""){
         }
     }
 }
-
-?>
-

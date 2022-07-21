@@ -40,12 +40,12 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/config.php");
                                  );
                     $update	=	$db->update('usuarios',$InsertData,array('id'=>($UserData['id'])));//ACTUALIZAMOS LA CUOTA CONSUMIDA EN LA BASE DE DATOS
                                         
-                    header("location: /admin/profile?msg=bienvenido");
+                    header("location: /admin/profile.php?msg=bienvenido");
                 }  
                 else  
                 {  
                     session_destroy();
-                    header("location: /admin?msg=inv");
+                    header("location: /admin.php?msg=inv");
                 }  
            }  
       }  
