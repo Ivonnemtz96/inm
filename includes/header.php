@@ -60,7 +60,7 @@
             <div class="container">
                 <ul id="responsive">
 
-                    <li class="<?php echo $inicio ?>" ><a href="index.php">Inicio</a>
+                    <li  ><a href="index.php">Inicio</a>
                         <!-- <ul>
                             <li><a href="index.html">Home 1</a></li>
                             <li><a href="index-2.html">Home 2</a></li>
@@ -96,7 +96,7 @@
                         </ul> -->
                     </li>
 
-                    <li  class="<?php echo $propiedades ?>"><a href="propiedades.php">Propiedades</a>
+                    <li ><a href="propiedades.php">Propiedades</a>
                         <!-- <ul>
                             <li><a href="#">Single Properties</a>
                                 <ul>
@@ -136,7 +136,7 @@
                         </ul> -->
                     </li>
 
-                    <li  class="<?php echo $contacto ?>"><a href="contact.php">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
 
                     <li hidden><a href="#">Pages</a>
                         <ul>
