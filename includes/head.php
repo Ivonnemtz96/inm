@@ -8,7 +8,7 @@
 
 <!-- CSS
 ================================================== -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/color.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/color.css">
 
 </head>

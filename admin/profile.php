@@ -1,8 +1,4 @@
-<?php
-include_once("database_conf/perfil_conf.php");
-?>
-<!-- Titlebar
-================================================== -->
+<!-- Titlebar====================================== -->
 <div id="titlebar">
 	<div class="container">
 		<div class="row">
@@ -28,31 +24,29 @@ include_once("database_conf/perfil_conf.php");
 ================================================== -->
 <div class="container">
 	<div class="row">
-
-
 		<!-- Widget -->
 		<?php
-		include("admin/sideNav.php");
+		require_once($_SERVER["DOCUMENT_ROOT"]."/admin/sideNav.php");
 		?>
 
 		<div class="col-md-8">
 			<div class="row">
 
-
+			<form method="post" enctype="multipart/form-data">
 				<div class="col-md-8 my-profile">
 					<h4 class="margin-top-0 margin-bottom-30">My Account</h4>
 
 					<label>Your Name</label>
-					<input name="nombre" value="<?php echo ($UserData['nombre']); ?>" type="text">
+					<input name="nombre" value="<?php echo($UserData['nombre']); ?>" type="text">
 
 					<label>Your Title</label>
-					<input name="intro" value="<?php echo ($UserData['intro']); ?>" type="text">
+					<input name="intro" value="<?php echo($UserData['intro']); ?>" type="text">
 
 					<label>Phone</label>
-					<input name="telefono" value="<?php echo ($UserData['telefono']); ?>" type="text">
+					<input name="telefono" value="<?php echo($UserData['telefono']); ?>" type="text">
 
 					<label>Email</label>
-					<input name="email" value="<?php echo ($UserData['email']); ?>" type="text">
+					<input name="email" value="<?php echo($UserData['email']); ?>" type="text">
 
 
 					<h4 class="margin-top-50 margin-bottom-25">About Me</h4>
@@ -67,11 +61,11 @@ include_once("database_conf/perfil_conf.php");
 						Guardar
 					</button>
 				</div>
-
+			</form>
 				<div class="col-md-4">
 					<!-- Avatar -->
 					<div class="edit-profile-photo">
-						<img src="/upload/user/<?php echo ($UserData['foto']); ?>.jpg" alt="">
+						<img src="/upload/user/<?php echo($UserData['foto']); ?>.jpg" alt="">
 						<div class="change-photo-btn">
 							<div class="photoUpload">
 								<span><i class="fa fa-upload"></i> Subir foto</span>
@@ -80,7 +74,7 @@ include_once("database_conf/perfil_conf.php");
 						</div>
 					</div>
 
-				</div>∏
+				</div>
 
 
 			</div>

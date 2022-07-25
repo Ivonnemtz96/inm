@@ -1,4 +1,5 @@
 <?php 
+session_start();  
 
 require_once($_SERVER["DOCUMENT_ROOT"] . "/config.php");
 
@@ -34,13 +35,15 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/config.php");
                     $UserData =	$db->getAllRecords('usuarios','*',' AND email="'.($_POST["email"]).'"LIMIT 1 ');
                     $UserData = $UserData[0];
                     $_SESSION["UserId"] = $UserData['id'];
+
+                    
                     //ACTUALIZAMOS LA FECHA DEL ÚLTIMO LOGIN
                     $InsertData	=	array(
                                     'fl'=> $fecha,
                                  );
                     $update	=	$db->update('usuarios',$InsertData,array('id'=>($UserData['id'])));//ACTUALIZAMOS LA CUOTA CONSUMIDA EN LA BASE DE DATOS
                                         
-                    header("location: /admin/profile.php?msg=bienvenido");
+                    header("location: /profile.php?msg=bienvenido");
                 }  
                 else  
                 {  

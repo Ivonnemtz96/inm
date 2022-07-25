@@ -8,10 +8,9 @@ error_reporting(E_ALL);
 require_once($_SERVER["DOCUMENT_ROOT"] . "/config.php");
 
 if (isset($_SESSION["UserId"])) {
-    header('Location: admin/login.php?msg=yal');
+    header('Location: /profile.php?msg=yal');
     exit();
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
