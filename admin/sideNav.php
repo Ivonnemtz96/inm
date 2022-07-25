@@ -11,7 +11,7 @@
             <ul class="my-account-nav">
                 <li class="sub-nav-title">Configuración</li>
                 <li><a href="caracteristicas.php"><i class="fa fa-check"></i> Carácteristicas</a></li>
-                <li><a href="agregar-caracteristica.php"><i class="fa fa-pencil"></i> Enviar carácteristica</a></li>
+                <li><a href="agregar-caracteristica.php"><i class="fa fa-pencil"></i> Agregar carácteristica</a></li>
             </ul>
 
             <ul class="my-account-nav">
@@ -20,7 +20,7 @@
 
 
                 </li>
-                <li><a href="agregar-propiedades.php"><i class="fa fa-pencil"></i> Enviar propiedad</a></li>
+                <li><a href="agregar-propiedades.php"><i class="fa fa-pencil"></i> Agregar propiedad</a></li>
             </ul>
 
             <ul class="my-account-nav">
