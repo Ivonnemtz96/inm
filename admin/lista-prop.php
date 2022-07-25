@@ -36,9 +36,9 @@ if (count($casaData) > 0) {
             </td>
 
             <td class="action">
-                <a target="_blank" href="/property/<?php echo ($casa['id']); ?>"><i class="fa fa-globe"></i> Ver</a>
-                <a href="/panel/editar/propiedad?editId=<?php echo ($casa['id']); ?>"><i class="fa fa-pencil"></i> Editar</a>
-                <a href="/panel/borrar/propiedad?delId=<?php echo ($casa['id']); ?>" class="delete" onClick="return confirm('Estás seguro? Esto no se puede deshacer');"><i class="fa fa-remove"></i> Borrar</a>
+                <a target="_blank" href="/property.php/<?php echo ($casa['id']); ?>"><i class="fa fa-globe"></i> Ver</a>
+                <a href="/editar-prop.php?editId=<?php echo ($casa['id']); ?>"><i class="fa fa-pencil"></i> Editar</a>
+                <a href="/borrar-prop.php?delId=<?php echo ($casa['id']); ?>" class="delete" onClick="return confirm('Estás seguro? Esto no se puede deshacer');"><i class="fa fa-remove"></i> Borrar</a>
             </td>
         </tr>
 
