@@ -5,13 +5,13 @@
 
             <ul class="my-account-nav">
                 <li class="sub-nav-title">Perfil</li>
-                <li><a href="profile.php"><i class="fa fa-user"></i> Editar perfil</a></li>
+                <li><a href="/profile.php"><i class="fa fa-user"></i> Editar perfil</a></li>
             </ul>
 
             <ul class="my-account-nav">
                 <li class="sub-nav-title">Configuración</li>
-                <li><a href="caracteristicas.php"><i class="fa fa-check"></i> Carácteristicas</a></li>
-                <li><a href="agregar-caracteristica.php"><i class="fa fa-pencil"></i> Agregar carácteristica</a></li>
+                <li><a href="/caracteristicas.php"><i class="fa fa-check"></i> Carácteristicas</a></li>
+                <li><a href="/agregar-caracteristica.php"><i class="fa fa-pencil"></i> Agregar carácteristica</a></li>
             </ul>
 
             <ul class="my-account-nav">

@@ -17,34 +17,18 @@
     <div class="row">
         <!-- Submit Page -->
         <!-- Widget -->
-        <?php 
+        <?php
         include("admin/sideNav.php");
         ?>
         <div class="col-md-8">
-            <div class="submit-page">
-
-
-                <!-- Section -->
-                <h3>Contact Details</h3>
-                <div class="submit-section">
-
-                    <!-- Row -->
-                    <div class="row with-forms">
-
-                        <!-- Name -->
-                        <div class="col-md-4">
-                            <h5>Carácteristica</h5>
-                            <input type="text">
-                        </div>
-
-                    </div>
-                    <!-- Row / End -->
+            <form method="post" enctype="multipart/form-data">
+                <div class="col-md-8 my-profile">
+                    <h4 class="margin-top-0 margin-bottom-30">Agrega una nueva características.</h4>
+                    <label>Nombre</label>
+                    <input name="nombre" type="text">
+                    <button type="submit" name="submit" value="submit" class="button margin-top-20 margin-bottom-20">Guardar</button>
                 </div>
-                <!-- Section / End -->
-                <div class="divider"></div>
-                <a href="#" class="button preview margin-top-5">Preview <i class="fa fa-arrow-circle-right"></i></a>
-
-            </div>
+            </form>
         </div>
 
     </div>

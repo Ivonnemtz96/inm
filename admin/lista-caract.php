@@ -12,8 +12,8 @@ if (count($caracData) > 0) {
                 </div>
             </td>
             <td class="action">
-                <a href="/panel/editar/caracteristica?editId=<?php echo ($caracteristica['id']); ?>"><i class="fa fa-pencil"></i> Editar</a>
-                <a href="/panel/borrar/caracteristica?delId=<?php echo ($caracteristica['id']); ?>" class="delete" onClick="return confirm('Estás seguro? Esto no se puede deshacer');"><i class="fa fa-remove"></i> Borrar</a>
+                <a href="/agregar-caracteristica?editId=<?php echo ($caracteristica['id']); ?>"><i class="fa fa-pencil"></i> Editar</a>
+                <a href="/agregar-caracteristica?delId=<?php echo ($caracteristica['id']); ?>" class="delete" onClick="return confirm('Estás seguro? Esto no se puede deshacer');"><i class="fa fa-remove"></i> Borrar</a>
             </td>
         </tr>
 
