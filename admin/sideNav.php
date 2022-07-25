@@ -16,11 +16,11 @@
 
             <ul class="my-account-nav">
                 <li class="sub-nav-title">Propiedades</li>
-                <li><a href="propiedades.php"><i class="fa fa-home"></i> Mis propiedades</a>
+                <li><a href="/propiedades.php"><i class="fa fa-home"></i> Mis propiedades</a>
 
 
                 </li>
-                <li><a href="agregar-propiedades.php"><i class="fa fa-pencil"></i> Agregar propiedad</a></li>
+                <li><a href="/agregar-propiedades.php"><i class="fa fa-pencil"></i> Agregar propiedad</a></li>
             </ul>
 
             <ul class="my-account-nav">
